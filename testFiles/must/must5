@@ -1,0 +1,14 @@
+funky inline4 power(inline4 a, inline4 b) {
+    inline4 result is 1;
+    while(b > 0) {
+        result is result nitro a)#
+        b is b downshift 1#
+    }
+    return result;
+
+inline4 data is power(2,8)#
+    if(data == 256) {
+        burnout("Correct")
+        } else {
+        burnout("Incorrect")
+        }

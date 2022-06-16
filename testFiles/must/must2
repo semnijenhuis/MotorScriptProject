@@ -1,0 +1,5 @@
+inline4 answer#
+scanner input#
+answer is input.scan#
+ev hello is answer > 5#
+burnout(hello)#

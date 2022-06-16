@@ -1,0 +1,22 @@
+ev test#
+
+scanner input#
+
+inline4 answer1#
+answer1 is input.scan#
+inline4 answer2#
+answer2 is input.scan#
+test is answer1 > answer2 OR answer2 < 0#
+
+if(test) {
+    burnout("You made a mistake")#
+} else {
+    burnout(test)#
+}
+
+test is answer1 > answer2 AND answer2 < 0#
+if(test) {
+    burnout("true")#
+} else {
+    burnout("false")#
+}

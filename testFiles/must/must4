@@ -1,0 +1,11 @@
+inline4 guess#
+guess is 4#
+scanner input#
+inline4 answer1#
+sentence feedback is "Wrong answer"#
+answer1 is input.scan#
+while(answer1 != guess) {
+    burnout(feedback)#
+    answer1 is input.scan#
+}
+burnout("Correct answer")#
